@@ -1,17 +1,30 @@
 # -*- coding:utf-8 -*-
+stu_score_dic={
+    "王力宏":{
+        "語文":77,
+        "數學":66,
+        "英文":33
+    }, "周杰倫":{
+        "語文":88,
+        "數學":86,
+        "英文":55
+    }, "林俊傑":{
+        "語文": 99,
+        "數學": 96,
+        "英文": 66
+    }
+}
 
-name_list=['asc','dfd','dfdf']
-print(name_list)
-print(type(name_list))
+print(f"可是訊息{stu_score_dic}")
+r = stu_score_dic["王力宏"]["語文"]
+print(r)
 
-my_list=['dfff',666,True]
-print(my_list)
+stu_score_dic["吳中石"]:33
+print(stu_score_dic)
 
-
-you_list=[[1,2,3],["aaa","bbb"]]
-print(you_list)
-
-
-print(name_list[-1])
-print(you_list[4])
-print(you_list[1][0])
+stu_score_dic={
+    "王力宏":77,
+    "周杰倫":88
+    "林俊傑":12}
+stu_score_dic.clear()
+print(stu_score_dic)
