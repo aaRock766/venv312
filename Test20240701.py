@@ -1,4 +1,5 @@
 # -*- coding:utf-8 -*-
+<<<<<<< HEAD
 fr = open('14.txt','r',encoding='UTF-8')
 # content = f.read()
 # print(content)
@@ -12,3 +13,9 @@ for line in fr:
         continue
 fr.close()
 fw.close()
+=======
+from time import sleep
+print("su")
+time.sleep(5)
+print("aa")
+>>>>>>> 013c6cd552a9222c38be5c47b60378c15a680151
