@@ -1,17 +1,14 @@
 # -*- coding:utf-8 -*-
-
-name_list=['asc','dfd','dfdf']
-print(name_list)
-print(type(name_list))
-
-my_list=['dfff',666,True]
-print(my_list)
-
-
-you_list=[[1,2,3],["aaa","bbb"]]
-print(you_list)
-
-
-print(name_list[-1])
-print(you_list[4])
-print(you_list[1][0])
+fr = open('14.txt','r',encoding='UTF-8')
+# content = f.read()
+# print(content)
+for line in fr:
+    line = line.strip()
+    t = line.split(",")[-1]
+    if t == '正式':
+        fw =open('14.txt.bak','a',encoding='Utf-8')
+        fw.write(line+'\n')
+    else:
+        continue
+fr.close()
+fw.close()
