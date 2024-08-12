@@ -4,5 +4,5 @@
     <option name="executionMode" value="BINARY" />
     <option name="pathToExecutable" value="C:\Users\Rock\anaconda3\Scripts\black.exe" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (venv312) (2)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (venv312)" project-jdk-type="Python SDK" />
 </project>
